@@ -1,32 +1,23 @@
-# Scribble
+# DSA Worked Solutions
 
-A Jekyll theme. [Demo :point_left:](http://scribble.muan.co/posts/scribble-the-jekyll-theme).
+Worked solutions to Data Structures and Algorithms problems.
 
-![screenshot](https://cloud.githubusercontent.com/assets/1153134/23830104/6d4665e0-06b7-11e7-8805-57e73c346459.png)
+## Solutions with Explanations
 
-## Get started
+See [website](https://ansonmiu0214.github.io/dsa-worked-solutions)
 
-1. [Fork the repository](https://github.com/muan/scribble/fork)
+## Code
 
-2. Clone the repository: `git clone https://github.com/username/scribble`
+See `solutions/` directory.
 
-3. Run `bundle install`
+Python 3.7+ is required.
 
-4. Run Jekyll: `bundle exec jekyll serve -w`
+### Running the solution to problem `foo`:
+```bash
+python -m solutions.foo
+```
 
-5. Go to http://localhost:4000 for your site.
-
----
-
-## Make it yours
-
-1. Edit `_config.yml`, adn then rerun `jekyll serve -w`
-
-2. Change `about.md` for blog intro
-
-3. For domain settings see [the guide from GitHub](https://help.github.com/articles/setting-up-a-custom-domain-with-pages)
-
-## The end
-
-Like it? [Tell me](http://twitter.com/muanchiou).<br/>
-Problem? [Use GitHub Issues](https://github.com/muan/scribble).
+### Running tests for solution to problem `foo`:
+```bash
+python -m unittest solutions.foo.test
+```
