@@ -1,19 +1,18 @@
 # ----------- CONFIGURABLE START -----------
-title:            "Scribble"
-description:      "Such theme, very cool."
-url:              http://scribble.muan.co # Site url, without a slash at the end.
-signoff:          "muan" # Your name
+title:            "DSA Worked Solutions"
+description:      "Worked solutions to Data Structure and Algorithm problems"
+url:              "https://ansonmiu0214.github.io/dsa-worked-solutions"  # Site url, without a slash at the end.
 facebook_appid:   # APP ID for like button, remove from /_includes/share.html if unwanted.
 google_analytics: # Set tracking, remove from /javascripts/basic.js if unwanted.
 share:            false # Turn on twitter and facebook share buttons
 
-links:
-  - name:         Posts
-    url:          /
-    external:     false
-  - name:         About me
-    url:          /about
-    external:     false
+# links:
+  # - name:         Posts
+  #   url:          /
+  #   external:     false
+  # - name:         About me
+  #   url:          /about
+  #   external:     false
 # ------------ CONFIGURABLE END ------------
 
 permalink:        /posts/:title
