@@ -1,4 +1,4 @@
-# DSA Worked Solutions
+# DSA Worked Solutions ![Published](https://github.com/ansonmiu0214/dsa-worked-solutions/workflows/Jekyll%20site%20CI/badge.svg)
 
 Worked solutions to Data Structures and Algorithms problems.
 
