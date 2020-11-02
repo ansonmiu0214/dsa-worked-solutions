@@ -1,19 +1,8 @@
-class ListNode:
-
-    def __init__(self, val, next = None):
-        self.val = val
-        self.next = next
-    
-    @classmethod
-    def fromList(cls, list):
-        if len(list) == 0:
-            return None
-        
-        head, *tail = list
-        return ListNode(head, cls.fromList(tail))
-
-    def toList(self):
-        if self.next is None:
-            return [self.val]
+def flatten(xs):
+    flattened = []
+    for x in xs:
+        if isinstance(x, list):
+            flattened += flatten(x)
         else:
-            return [self.val, *self.next.toList()]
+            flattened.append(x)
+    return flattened

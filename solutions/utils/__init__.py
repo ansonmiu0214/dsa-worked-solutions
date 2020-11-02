@@ -1,1 +1,1 @@
-from .list import ListNode
+from .linked_list import ListNode
