@@ -50,7 +50,7 @@ def main(args):
 
     today = date.today().strftime('%Y-%m-%d')
 
-    post_filename = os.path.join('_posts', f'{today}_{title}.md') 
+    post_filename = os.path.join('_posts', f'{today}-{title}.md') 
     solutions_dir = os.path.join('solutions', shortname)
 
     if os.path.exists(post_filename):
