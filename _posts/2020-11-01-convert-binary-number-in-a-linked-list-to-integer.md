@@ -3,7 +3,7 @@ title: Convert binary number in a linked list to integer
 date: 2020-11-01
 shortname: linked_list_binary_to_decimal
 leetcode: https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer
-tags: [linked list, recursion]
+tags: [linked list, recursion, monthly challenge]
 ---
 
 ## Problem
