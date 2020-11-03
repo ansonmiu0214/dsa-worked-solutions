@@ -35,7 +35,7 @@ column offset `offsetCol + 1`.
 For the base cases:
 * (1, _) spiral order is a single row, where we just print the elements in order
 * (_, 1) spiral order is a single column, where we just print the elements from top to bottom
-* (0, \_) and (_ do not cover any elements
+* (0, \_) and (_, 0) do not cover any elements
 
 ```python3
 def spiralOrder(matrix: List[List[int]]) -> List[int]:
