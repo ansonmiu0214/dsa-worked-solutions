@@ -32,7 +32,7 @@ Then we run BFS again to find the furthest node from `first` -- let's denote thi
 The path from `second` to `first` defines the diameter, and we can take the midpoint
 of the path as the root of the MHT.
 
-```python3
+```python
 def findMinHeightTrees(n: int, edges: List[List[int]]) -> List[int]:
     """Return list of node indices which can be the root of a min-height tree."""
 

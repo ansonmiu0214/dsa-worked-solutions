@@ -31,7 +31,7 @@ To insert `head.val` into `res`, we traverse the `res` list with two pointers,
 `prev` and `curr`, and insert `head.val` where `prev.val <= head.val <= curr.val`,
 i.e. create new node and update pointers.
 
-```python3
+```python
 def insertionSortList(head: ListNode, result: ListNode = None) -> ListNode:
     """Sort linked list represented by 'head' using insertion sort,
     and return new sorted linked list."""

@@ -36,7 +36,7 @@ Basic idea:
                 * If prob(`start`->`node`->`neighbour`) > prob(`start`->`neighbour`), we use the larger probability in the fringe.
 * If `fringe` is empty, that means `end` cannot be reached from start.
 
-```python3
+```python
 def maxProbability(n: int, edges: List[List[int]], succProb: List[float], start: int, end: int) -> float:
     """Return maximum probability from node `start` to node `end`."""
 
