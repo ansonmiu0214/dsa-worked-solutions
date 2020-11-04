@@ -7,7 +7,8 @@ tags: [linked list, recursion, monthly challenge]
 ---
 
 ## Problem
-Implement insertion sort on a linked list of numbers.
+
+> Implement insertion sort on a linked list of numbers.
 
 ## Some questions to ask
 * Return a new list? Or perform sorting in-place?
