@@ -3,7 +3,7 @@ title: Minimum height trees
 date: 2020-11-04
 shortname: minimum_height_trees
 leetcode: https://leetcode.com/problems/minimum-height-trees
-tags: [graph, BFS, tree]
+tags: [graph, BFS, tree, monthly challenge]
 ---
 
 ## Problem

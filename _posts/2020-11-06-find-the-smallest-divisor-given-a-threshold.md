@@ -3,7 +3,7 @@ title: Find the smallest divisor given a threshold
 date: 2020-11-06
 shortname: smallest_divisor_given_threshold
 leetcode: https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold
-tags: [binary search]
+tags: [binary search, monthly challenge]
 ---
 
 ## Problem
