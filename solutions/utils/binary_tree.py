@@ -1,4 +1,5 @@
 from collections import deque
+from unittest.main import main
 
 class TreeNode:
 
@@ -26,13 +27,11 @@ class TreeNode:
         queue = deque()
 
         for val in rest:
-            # print('next val', val)
             if val is not None:
                 node = cls(val)
                 queue.append(node)
             else:
                 node = None
-                queue.append(node)
 
             if mode == LEFT_CHILD:
                 curr.left = node
