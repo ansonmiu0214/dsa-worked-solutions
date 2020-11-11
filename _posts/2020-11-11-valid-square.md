@@ -3,7 +3,7 @@ title: Valid square
 date: 2020-11-11
 shortname: valid_square
 leetcode: https://leetcode.com/problems/valid-square
-tags: [math]
+tags: [math, monthly challenge]
 ---
 
 ## Problem
