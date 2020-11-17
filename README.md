@@ -12,6 +12,13 @@ See `solutions/` directory.
 
 Python 3.7+ is required.
 
+### Running the solution to any problem:
+```bash
+python -m solutions
+```
+
+Pick from interactive prompt.
+
 ### Running the solution to problem `foo`:
 ```bash
 python -m solutions.foo
