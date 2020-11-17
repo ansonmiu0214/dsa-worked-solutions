@@ -3,7 +3,7 @@ title: Longest mountain in array
 date: 2020-11-16
 shortname: longest_mountain_in_array
 leetcode: https://leetcode.com/problems/longest-mountain-in-array
-tags: [array]
+tags: [array, monthly challenge]
 ---
 
 ## Problem
