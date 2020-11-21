@@ -3,7 +3,7 @@ title: Numbers at most n given digit set
 date: 2020-11-21
 shortname: numbers_at_most_n_given_digits
 leetcode: https://leetcode.com/problems/numbers-at-most-n-given-digit-set
-tags: [math]
+tags: [math, monthly challenge]
 ---
 
 ## Problem
