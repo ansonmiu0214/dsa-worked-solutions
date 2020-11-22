@@ -1,6 +1,6 @@
 ---
 title: Smallest string with a given numeric value
-date: 2020-11-21
+date: 2020-11-22
 shortname: smallest_string_given_numeric_value
 leetcode: https://leetcode.com/problems/smallest-string-with-a-given-numeric-value
 tags: [string, greedy]
