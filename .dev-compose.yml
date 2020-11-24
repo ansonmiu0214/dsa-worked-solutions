@@ -6,6 +6,13 @@ services:
       dockerfile: Dockerfile
     volumes:
       - .:/workarea
+  test:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./solutions:/workarea/solutions
+    command: python -m unittest discover --verbose
 
 volumes:
   solutions:
