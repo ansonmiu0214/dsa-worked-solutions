@@ -1,3 +1,5 @@
+#!/usr/local/bin/python
+
 from argparse import ArgumentParser
 from datetime import date
 import os

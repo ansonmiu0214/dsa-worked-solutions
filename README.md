@@ -10,7 +10,11 @@ See [website](https://ansonmiu0214.github.io/dsa-worked-solutions)
 
 See `solutions/` directory.
 
-Python 3.7+ is required.
+This repo is set up to work with the [Remote Containers extension](https://code.visualstudio.com/docs/remote/containers) on VS Code.
+
+* `Dockerfile` pulls a lightweight Python base image
+* `.dev-compose.yml` defines the development container
+* `.devcontainer` tells VS Code how to access/create the development container
 
 ### Running the solution to any problem:
 ```bash

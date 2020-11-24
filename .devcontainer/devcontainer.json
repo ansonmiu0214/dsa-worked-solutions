@@ -1,0 +1,12 @@
+{
+    "dockerComposeFile": [
+        "../.dev-compose.yml",
+        "docker-compose.yml"
+    ],
+    "service": "dev",
+	"workspaceFolder": "/workarea",
+	"extensions": [
+		"ms-python.python",
+		"ms-python.vscode-pylance"
+	]
+}
