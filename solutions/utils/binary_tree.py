@@ -65,3 +65,13 @@ class TreeNode:
             result.pop()
         
         return result
+
+    def __eq__(self, other: object) -> bool:
+        if not isinstance(other, type(self)):
+            return False
+
+        return self.val == other.val and \
+            self.left == other.left and self.right == other.right
+    
+    def __repr__(self):
+        return f'TreeNode.fromList({self.toList()})'

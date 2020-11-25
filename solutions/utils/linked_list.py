@@ -17,3 +17,15 @@ class ListNode:
             return [self.val]
         else:
             return [self.val, *self.next.toList()]
+
+    def __eq__(self, other: object) -> bool:
+        if not isinstance(other, type(self)):
+            return False
+
+        return self.val == other.val and self.next == other.next
+
+    def __repr__(self):
+        return f'ListNode.fromList({self.toList()})'
+
+    def __str__(self):
+        return f'[{",".join(map(str, self.toList()))}]'
