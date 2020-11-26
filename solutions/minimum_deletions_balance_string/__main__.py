@@ -1,8 +1,8 @@
 from .solution import minimumDeletions
-from ..utils import printer
+from ..utils import io, printer
 
 print('Enter string only consisting of "a"s and "b"s:', end=' ')
-s = input().strip().lower()
+s = io.get(str).lower()
 
 violating_characters = set(s) - set('ab')
 assert len(violating_characters) == 0, f'Violating characters: {", ".join(violating_characters)}'

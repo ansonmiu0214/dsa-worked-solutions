@@ -1,12 +1,12 @@
 from math import ceil
-
 from .solution import smallestDivisor
+from ..utils import io
 
 print('Enter space-separated nums:', end=' ')
-nums = list(map(int, input().strip().split(' ')))
+nums = io.get_list(int)
 
 print('Threshold:', end=' ')
-threshold = int(input().strip())
+threshold = io.get(int)
 
 divisor = smallestDivisor(nums, threshold)
 print(f'Smallest divisor is {divisor}, '

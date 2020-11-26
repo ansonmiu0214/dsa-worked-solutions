@@ -1,7 +1,7 @@
 from typing import List
 
 from .solution import addTwoNumbers
-from ..utils import ListNode
+from ..utils import io, ListNode
 
 def numToList(num: int) -> List[int]:
     if num == 0:
@@ -16,7 +16,7 @@ def linkedListToNum(node: ListNode, acc: int = 0) -> int:
     return linkedListToNum(node.next, acc * 10 + node.val)
 
 print('Enter two (space-separated) numbers:', end=' ')
-first, second, *_ = list(map(int, input().strip().split(' ')))
+[first, second] = io.get_list(int)
 
 l1, l2 = numToList(first), numToList(second)
 sumNode = addTwoNumbers(ListNode.fromList(l1), ListNode.fromList(l2))

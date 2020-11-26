@@ -1,10 +1,11 @@
 from .solution import furthestBuilding
+from ..utils import io
 
 print('Enter heights, space-separated:', end=' ')
-heights = list(map(int, input().strip().split(' ')))
+heights = io.get_list(int)
 
 print('Enter number of bricks and number of ladders, space-separated:', end=' ')
-[bricks, ladders] = list(map(int, input().strip().split(' ')))
+[bricks, ladders] = io.get_list(int)
 
 furthest = furthestBuilding(heights, bricks, ladders)
 print(f'Furthest reachable building: #{furthest}')

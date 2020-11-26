@@ -1,10 +1,11 @@
 from .solution import maxProfit
+from ..utils import io
 
 print('Enter space-separated numbers for inventory:', end=' ')
-inventory = list(map(int, input().strip().split(' ')))
+inventory = io.get_list(int)
 
 print('Enter number of orders:', end=' ')
-orders = int(input().strip())
+orders = io.get(int)
 
 profit = maxProfit(inventory, orders)
 print(f'Max profit attainable: {profit}')

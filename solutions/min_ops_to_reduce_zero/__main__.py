@@ -1,11 +1,11 @@
 from .solution import minOperations
-from ..utils import printer
+from ..utils import io, printer
 
 print('Enter space-separated nums:', end=' ')
-nums = list(map(int, input().strip().split(' ')))
+nums = io.get_list(int)
 
 print('Enter x:', end=' ')
-x = int(input().strip())
+x = io.get(int)
 
 operations = minOperations(nums, x)
 if operations != -1:
