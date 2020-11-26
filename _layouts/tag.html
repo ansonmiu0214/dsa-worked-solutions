@@ -73,6 +73,7 @@ The following part removes dulpicated tags and invalid tags like blank tag.
 
             {% for tag in tags %}
                 <h2 id="{{ tag | slugify }}">{{ tag }}</h2>
+                <a name="{{ tag | slugify }}"></a>
 
                 
                 <ul class="list pa0">
