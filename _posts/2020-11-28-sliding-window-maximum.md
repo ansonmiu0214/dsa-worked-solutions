@@ -69,11 +69,13 @@ def maxSlidingWindow(nums: List[int], k: int) -> List[int]:
             maxIdxs.pop()
 
         maxIdxs.append(i)
-        maxWindow.append(nums[maxIdxs[0]])
 
-    # Sliding window for 'nums' begin at index 'k-1', i.e. where
-    # the window sees the first 'k' numbers.
-    return maxWindow[k-1:]
+        # Sliding window for 'nums' begin at index 'k-1', i.e. where
+        # the window sees the first 'k' numbers.
+        if i >= k - 1:
+            maxWindow.append(nums[maxIdxs[0]])
+
+    return maxWindow
 ```
 
 ### Complexity
