@@ -79,7 +79,7 @@ The following part removes dulpicated tags and invalid tags like blank tag.
                      {% if post.tags contains tag %}
                      <li class="mv2" style="display: flex; align-items: center;">
                         <div style="flex-grow: 1;">
-                            <a href="{{ post.url }}">
+                            <a href="{{ site.url }}{{ post.url }}">
                                 {{ post.title }}
                                 <br />
                                 <small>{{ post.date | date_to_string }}</small>
